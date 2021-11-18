@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Calculatrice JavaScript</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="calculatrice.js"></script>
+        <style>
+            table, td
+{
+    border: 1px solid black;
+}
+.touche, .clear, .resultat
+{
+    padding: 10px;
+    background-color: white;
+}
+table
+{
+    background-color: #90EEFF;
+    padding: 15px;
+}
+.result
+{
+    background-color: white;
+    padding: 20px;
+    width: 20%;
+}
+        </style>
+    </head>
+
+        <body>
+                <table class="table">
+           <thead>
+                <tr>
+                        <td class="resultat">
+                    </td>
+                </tr>
+            </thead>
+                        <tbody>
+                                <tr class="colonne">
+                                        <td class="touche">+</td>
+                                        <td class="touche">-</td>
+                                        <td class="touche">*</td>
+                                        <td class="touche">/</td>
+                                </tr>
+                                <tr class="colonne">
+                                        <td class="touche">7</td>
+                                        <td class="touche">8</td>
+                                        <td class="touche">9</td>
+                                        <td class="clear">AC</td>
+                                </tr>
+                                <tr class="colonne">
+                                        <td class="touche">4</td>
+                                        <td class="touche">5</td>
+                                        <td class="touche">6</td>
+                                        <td class="touche">0</td>
+                                </tr>
+                                <tr class="colonne"> 
+                                        <td class="touche">1</td>
+                                        <td class="touche">2</td>
+                                        <td class="touche">3</td>
+                                        <td class="result">=</td>
+                                </tr>
+                        </tbody>
+                </table>
+        </body>
+</html>
